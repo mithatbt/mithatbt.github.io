@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>springSim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">springSim</a>
+        <ul>
+            <li><a href="https://www.youtube.com/@lct7xi888">contact</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Spring_(device)">about</a></li>
+        </ul>
+    </header>
+    <canvas id="canvas" width="700" height="700"></canvas>
+    <div class="sliders">
+        <label for="sliderk">coefficient-k:</label>
+        <input type='range' min='0' max='100' value='50' id='sliderk'></input>
+        <label for="sliderm">mass:</label>
+        <input type='range' min='0' max='100' value='50' id='sliderm'></input>
+        <label for="sliderg">gravity:</label>
+        <input type='range' min='0' max='100' value='50' id='sliderg'></input>
+        <label for="sliderd">dampening:</label>
+        <input type='range' min='0' max='100' value='50' id='sliderd'></input>
+        <label for="sliderny">equilibrium length:</label>
+        <input type='range' min='0' max='200' value='100' id='sliderny'></input>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
